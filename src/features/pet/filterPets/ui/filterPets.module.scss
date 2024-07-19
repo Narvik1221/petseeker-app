@@ -1,0 +1,23 @@
+.filter__list {
+margin-top: 52px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filter__item {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.filter__item_icon {
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: var(--secondary-gray);
+  white-space: nowrap;
+}

@@ -1,0 +1,72 @@
+:root {
+  --font-family: "Roboto", sans-serif;//заменить на основной шрифт
+  --second-family: "Roboto", sans-serif;//заменить на основной шрифт
+  --third-family: "Roboto", sans-serif;
+  --font3: "Inter", sans-serif;
+  --font4: "SF Pro Display", sans-serif;
+  --font5: "SF NS Expanded", sans-serif;
+
+
+  --csk---134ff0-500: #134ef0;
+	--csk---134ff0-50: #e7edfd;
+	--csk---134ff0-950: #020818;
+	--csk---134ff0-100: #cfdbfc;
+	--csk---134ff0-200: #9fb7f9;
+	--csk---134ff0-300: #6f93f6;
+	--csk---134ff0-400: #3f6ff3;
+	--csk---134ff0-600: #0c3cc0;
+	--csk---134ff0-700: #092d90;
+	--csk---134ff0-800: #061e60;
+	--csk---134ff0-900: #030f30;
+	--keyboard-3: #d1d3d9;
+	--button-dark-defoult: #6c54f6;
+	--gray-backgr-element: #828282;
+	--imput-name: #d1d3d9;
+	--imput-text-field: #585858;
+	--icons: #f1f1f1;
+	--dark-theme-background: #1b1b1b;
+	--white---primary: #fff;
+	--color-primary-40: rgba(255, 255, 255, 0.4);
+	--labels-primary: #000;
+	--dark-defoult-20: rgba(108, 84, 246, 0.2);
+	--primary-green: #45d954;
+	--secondary-gray: #d1d3d9;
+	--primary-red: #dd2323;
+	--primary-40: rgba(108, 84, 246, 0.4);
+
+
+
+  --navbar-height:60px
+}
+
+
+
+
+
+
+
+html[data-theme="dark"] {
+    --input-border-color:#ffffff;
+    --text-color: #ffffff;
+    --button-text-color: #ffffff;
+    --button-background-color: #6c54f6;
+    --button-border-color: #6c54f6;
+    --button-text-color-default: #ffffff;
+    --button-background-color-default: #404040;
+    --button-border-color-default: #404040;
+  
+    --background-color: #1b1b1b;
+  }
+  
+  html[data-theme="light"] {
+    --input-border-color:#585858;
+    --text-color: #1b1b1b;
+    --button-text-color: #ffffff;
+    --button-background-color: #1b1b1b;
+    --button-border-color: #1b1b1b;
+    --button-text-color-default: #585858;
+    --button-background-color-default: #ffffff;
+    --button-border-color-default: #585858;
+  
+    --background-color: #ffffff;
+  }

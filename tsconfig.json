@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@shared/*": ["src/shared/*"]
+    },
+    "types": ["vite-plugin-svgr/client"],
+
+  },
+
+  "references": [
+    { "path": "./tsconfig.node.json" },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}

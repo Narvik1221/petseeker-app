@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  margin-top: 24px;
+}
+.card__list_container {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Две колонки, каждая занимает равную часть ширины контейнера */
+  gap: 10px; /* Задайте необходимый gap */
+  margin-bottom: var(--navbar-height);
+}
+
+.card__item {
+  width: 100%; /* Убедитесь, что элементы занимают всю ширину своей ячейки */
+}

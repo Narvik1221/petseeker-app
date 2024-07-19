@@ -1,0 +1,28 @@
+.default {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 202%;
+  color: var(--labels-primary);
+}
+.gray {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 202%;
+  color: var(--gray-backgr-element);
+}
+
+.title {
+  color: var(--text-color);
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+}
+.subtitle {
+  font-family: var(--font-family);
+  font-weight: 590;
+  font-size: 14px;
+  line-height: 145%;
+  color: var(--labels-primary);
+}

@@ -1,0 +1,12 @@
+{
+  "search": {
+    "en": {
+      "placeholder": "Search PetSeeker",
+      "placeholder-focus":"Text"
+    },
+    "ru": {
+      "placeholder": "Поиск PetSeeker",
+        "placeholder-focus":"Текст"
+    }
+  }
+}
